@@ -68,3 +68,6 @@ CREATE NONCLUSTERED INDEX IX_IndexName ON TableName (Column1) INCLUDE (Column2, 
 
 
 * Unique-primary key constraints, frequently used columns
+
+
+
