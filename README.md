@@ -40,6 +40,7 @@ Index
     ON Persons (LastName); --> burada tablo sayısı arttırılarak farklı kayıtlar da eklenebilir.s
     
     İki farklı işlem yapılmış olacak ama çok daha pratik bir işlem, çünkü bilgisayarın tüm veritabanını araması gerekecek öbür türlü
+    
     ![image](https://github.com/mert10unal/SQL-Notes/assets/120198895/5076b02b-96c9-401c-a734-bd4d59d79a35)
 
 Clustered Index
