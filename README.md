@@ -69,4 +69,5 @@ CREATE NONCLUSTERED INDEX IX_IndexName ON TableName (Column1) INCLUDE (Column2, 
 
 * Unique-primary key constraints, frequently used columns
 
-
+Truncate :  Tablonun verileriyle beraber geçmişi de silinir. Tabloda 10 tane veri varsa bu veriler silinir ve yeni veriler eklenince id 1 olur.
+delete : Tablonun verileri silinir. Tabloda 10 kayıt varsa silinen veriden sonra eklenen değerin idsi 11 olur.
