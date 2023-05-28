@@ -80,14 +80,19 @@ Class'lar, nesnelerin nasıl oluşturulacağını ve nasıl davranacaklarını b
 Ctor Nedir ?
 - Bir sınıf oluşturulduğunda otomatik olarak getirilen bir yapıdır. Ana classtan ayıran şey bir dönüş tipinin olmamasıdır fakat isimleri aynı olmalıdır. Ctorlar değer döndürmez. Bir ctorun avantajı, bir sınıfın nesnesi oluşturulduğunda çağrılmasıdır. Alanlar (Column Field) için başlangıç değerlerini ayarlamak için kullanılabilir (nesnenin bir değişkenine değer atama)
 
+
 Inheritance
 - Bir sınıfın başka sınıfın attributelerini yani özelliklerini miras edebilmesi olayıdır. Çok sık kullanırız çünkü hem daha az kod yazmış oluruz hem de ana classa bağlı olarak bir sürü sub-class oluşturabiliriz. Örneğin her aracın rengi ve tekeri vardır. Bu özellikler ana class’ta tanımlandıktan sonra bir daha tanımlanırsa kod uzar. Bunun yerine inheritance yöntemiyle bunu sağlayabiliriz
 - Class B : variable type A
+
 
 Polymorphism
 - Esneklik ve kullanışlılık
 - Araba classının farklı markalarda sub-classları olsun ve araba classının da Horsepower adında bir özelliği olsun. Bu özellik tüm arabalarda vardır fakat fakat içerdiği değer her sub-classa göre farklılık gösterir. Veya horsepower üzerinden işlem yapan bir fonksiyonumuz olsun. Bu fonksiyonda horsepower özelliğinin her subclassa göre farklı değer döndürmesi de polymorphisme örnek gösterilebilir.
 
+
 Encapsulation
-- 
+
+
+Abstraction
 
